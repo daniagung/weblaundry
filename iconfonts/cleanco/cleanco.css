@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'cleanco';
+  src: url('cleanco.eot?37962084');
+  src: url('cleanco.eot?37962084#iefix') format('embedded-opentype'),
+       url('cleanco.woff?37962084') format('woff'),
+       url('cleanco.ttf?37962084') format('truetype'),
+       url('cleanco.svg?37962084#cleanco') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+ 
+.icon-comment-empty:before { font-family: 'cleanco'; content: '\e800'; } /* '' */
+.icon-heart-empty:before { font-family: 'cleanco'; content: '\e801'; } /* '' */
+.icon-angle-left:before { font-family: 'cleanco'; content: '\e802'; } /* '' */
+.icon-angle-right:before { font-family: 'cleanco'; content: '\e803'; } /* '' */
+.icon-link:before { font-family: 'cleanco'; content: '\e804'; } /* '' */
+.icon-search:before { font-family: 'cleanco'; content: '\e805'; } /* '' */
+.icon-cancel:before { font-family: 'cleanco'; content: '\e806'; } /* '' */
+.icon-menu:before { font-family: 'cleanco'; content: '\e807'; } /* '' */
+.icon-user-1:before { font-family: 'cleanco'; content: '\e80c'; } /* '' */

@@ -1,0 +1,14 @@
+@font-face {
+	font-family: "IOS 7 interface symbol";
+	src: url("flaticon.eot");
+	src: url("flaticon.eot#iefix") format("embedded-opentype"),
+	url("flaticon.woff") format("woff"),
+	url("flaticon.ttf") format("truetype"),
+	url("flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+.interface-symbol-position3:before {
+	content: "\e000";
+	font-family: "IOS 7 interface symbol";
+}

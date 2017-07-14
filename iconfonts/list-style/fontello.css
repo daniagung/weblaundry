@@ -1,0 +1,30 @@
+@font-face {
+	font-family: "Detheme List";
+	src: url("fontello.eot");
+	src: url("fontello.eot#iefix") format("embedded-opentype"),
+	url("fontello.woff") format("woff"),
+	url("fontello.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+.listicon-ok:before{
+	font-family: "Detheme List";
+    content: '\e804';
+}
+.listicon-ok-circled2:before{
+	font-family: "Detheme List";
+    content: '\e801';
+}
+.listicon-checked:before{
+	font-family: "Detheme List";
+    content: '\e803';
+}
+.listicon-check:before{
+	font-family: "Detheme List";
+    content: '\e802';
+}
+.listicon-check-empty:before{
+	font-family: "Detheme List";
+    content: '\e800';
+}

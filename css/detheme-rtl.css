@@ -1,0 +1,120 @@
+/* modal box */
+.rtl .md-close {
+  left: 10px;
+  right: auto;
+}
+/* dt Progress Bars */
+.progress_bars .progress_content {
+  right: 0px;
+}
+.progress_bars .progress_bar .progress_info {
+  float: right;
+}
+.progress_bars .progress_bar .progres-unit {
+  right: -5px;
+}
+.nav {
+  padding-right: 0px;
+  padding-left: auto;
+}
+.rtl .paging-nav {
+  text-align: right;
+}
+.rtl .list-unstyled {
+  padding-left: auto;
+  padding-right: 0px;
+}
+/** WIDGET SEARCH **/
+.rtl .widget_search #s {
+  padding: 10px 40px 10px 10px;
+}
+/*.sidebar */
+.rtl .widget_categories ul,
+.rtl .widget_recent_entries ul,
+.rtl .dt_widget_recent_post ul,
+.rtl .widget_recent_comments ul,
+.rtl .dt_widget_recent_comments ul,
+.rtl .widget_rss ul,
+.rtl .widget_meta ul,
+.rtl .widget_nav_menu ul,
+.rtl .widget_archive ul,
+.rtl .woocommerce.widget_product_categories ul,
+.rtl .widget_pages ul {
+  padding-right: 0;
+  padding-left: auto;
+}
+.rtl .widget_categories ul li ul,
+.rtl .widget_recent_entries ul li ul,
+.rtl .dt_widget_recent_post ul li ul,
+.rtl .widget_recent_comments ul li ul,
+.rtl .dt_widget_recent_comments ul li ul,
+.rtl .widget_rss ul li ul,
+.rtl .widget_meta ul li ul,
+.rtl .widget_nav_menu ul li ul,
+.rtl .widget_archive ul li ul,
+.rtl .woocommerce.widget_product_categories ul li ul,
+.rtl .widget_pages ul li ul {
+  padding-right: 20px;
+  padding-left: auto;
+}
+.rtl .widget_recent_entries ul li {
+  margin-right: 17px;
+  margin-left: auto;
+}
+/** WIDGET ACCORDION **/
+.rtl .dt_widget_accordion .btn-accordion {
+  left: 22px;
+  right: auto;
+}
+/** WIDGET TABS **/
+.rtl .rowlist .image-info {
+  padding-left: 15px;
+  padding-right: 0px;
+}
+/* select dropdown */
+.rtl .select-target.select-theme-default b {
+  left: 1em;
+  right: auto;
+}
+.rtl .select-target.select-theme-default b:before,
+.select-target.select-theme-default b:after {
+  left: 0;
+  right: auto;
+}
+/* detail comment author */
+.rtl .about-author .pull-right {
+  margin-left: 30px;
+}
+/* post meta info */
+.rtl .postinfo > ul {
+  padding-right: 0;
+  padding-left: auto;
+}
+.rtl .postinfo > ul > li {
+  border-right: 1px solid rgba(149, 165, 166, 0.5);
+  border-left: none;
+}
+.rtl .postinfo > ul > li.info_share > div:before {
+  margin-right: auto;
+  margin-left: 10px;
+  float: left;
+  -webkit-transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  -ms-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  transform: scaleX(-1);
+  -ms-filter: fliph;
+  /*IE*/
+
+  filter: fliph;
+  /*IE*/
+
+}
+.rtl .postinfo > ul > li:first-child {
+  padding: 0px 0px 0px 28px;
+  border-right: none;
+}
+/* post carousel */
+.post-gallery-carousel .post-gallery-carousel-nav .post-gallery-carousel-buttons a[data-slide=prev] {
+  float: left;
+}
